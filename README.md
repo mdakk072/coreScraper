@@ -1,16 +1,14 @@
-# ScraperProject2024
+# coreScrapper
 
 ## Overview
 
-ScraperProject2024 is a modular and scalable web scraping framework designed to simplify the development of web scrapers for various websites. It includes base classes for HTTP requests and Selenium-based web scraping, as well as a finite state machine (FSM) to manage the scraping process.
+coreScrapper is a modular and scalable web scraping framework designed to simplify the development of web scrapers for various websites. It includes base classes for HTTP requests and Selenium-based web scraping, as well as a finite state machine (FSM) to manage the scraping process.
 
 ## Features
 
 - **BaseRequest**: For making HTTP requests.
 - **BaseDriver**: For controlling web browsers using Selenium.
 - **BaseFSM**: For managing the scraping process using a finite state machine.
-- **ZeroMQ Integration**: For inter-process communication (optional).
-
 ## Project Structure
 
 ```
