@@ -27,7 +27,7 @@ jobs:
     - name: Generate documentation
       run: |
         source venv/bin/activate
-        PYTHONPATH=$(pwd) pdoc --html ./core --output-dir ./docs --force
+        PYTHONPATH=$(pwd) pdoc --output-dir ./docs ./core
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
